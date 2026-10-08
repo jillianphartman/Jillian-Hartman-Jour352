@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+    font-display: swap;
     margin: 0;
     padding: 0;
 }
@@ -10,8 +14,9 @@ body {
     padding-bottom: 50px;
 }
 #name {
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 3em;
+    color: #33485e;
+    text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid #33485e;
     width: 60%;
@@ -20,11 +25,17 @@ body {
 }
 #title {
     font-weight: 600;
+    font-size: 1.5em;
+    color: #33485e;
+    text-transform: uppercase;
     text-align: center;
     margin: 20px 0 0 0;
 }
 .sectionheader {
-    font-size: 1.75em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: #ffffff;
     font-weight: bold;
     margin: 20px 0 10px 0;
     width: 70%;
@@ -36,8 +47,12 @@ body {
 }
 .organization {
     font-size: 1.25em;
+    font-weight: 400;
 }
 .date {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
     margin: 2px 0 0 0;
 }
 .description {
@@ -51,11 +66,14 @@ body {
 }
 .menu li {
     display: inline;
+    margin: 0 10px;
 }
 #degrees {
+    font-size: 1em;
     margin: 5px 0 0 0;
 }
 #do {
+    font-size: 1em;
     margin: 5px 0 0 0;
 }
 .top {
