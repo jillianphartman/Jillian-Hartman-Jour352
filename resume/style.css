@@ -36,9 +36,8 @@ body {
     text-transform: uppercase;
     background-color: #33485e;
     color: #ffffff;
+    font-weight: 400;
     margin: 20px 0 10px 0;
-    width: 70%;
-    min-width: 300px;
 }
 .jobtitle {
     font-size: 1.35em;
