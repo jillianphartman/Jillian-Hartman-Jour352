@@ -1,129 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skate! Newsletter</title>
-  
-  <link href="https://jsdelivr.net" rel="stylesheet">
-  <link href="https://jsdelivr.net" rel="stylesheet">
-  <link rel="preconnect" href="https://googleapis.com">
-  <link rel="preconnect" href="https://gstatic.com" crossorigin>
-  <link href="https://googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-
-  <style>
-    h1, h2, h3, .navbar-brand, .btn {
-      font-family: 'Special Elite', system-ui, sans-serif;
-    }
-
-    .grid-img {
-      width: 100%;
-      max-width: 500px;
-      height: auto;
-    }
-
-    .custom-icon {
-      font-size: 3em;
-    }
-
-    .row {
-      padding-bottom: 50px;
-    }
-
-    @media only screen and (max-width: 500px) {
-      h2 {
-        padding-top: 50px;
-      }
-      .btn {
-        background-color: teal !important;
-        border-color: teal !important;
-        color: white !important;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate! Newsletter</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        h1, h2, h3, .navbar-brand, .btn {
+            font-family: 'Special Elite', system-ui, sans-serif;
+        }
+        .grid-img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+        .custom-icon {
+            width: 3em;
+            height: 3em;
+        }
+        .row {
+            padding-bottom: 50px;
+        }
+        @media only screen and (max-width: 500px) {
+            h2 {
+                padding-top: 50px;
+            }
+            .btn {
+                background-color: teal !important;
+                border-color: teal !important;
+                color: white !important;
+            }
+        }
+    </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
 
-  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Skate! Newsletter</a>
-      <button class="navbar-brand navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Current issue</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Past issues</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Follow us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Skate! Newsletter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Current issue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Past issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Follow us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <div class="container col-xxl-8 px-4 py-5"> 
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
-      <div class="col-10 col-sm-8 col-lg-6"> 
-        <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="d-block mx-lg-auto img-fluid" alt="Skateboard collection layout" width="700" height="500" loading="lazy"> 
-      </div> 
-      <div class="col-lg-6"> 
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Skate! Newsletter</h1> 
-        <p class="lead">Get your monthly breakdown of local shred spots, exclusive gear reviews, interviews with resident pros, and archival media features delivered right to your inbox.</p> 
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
-          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Subscribe Now</button> 
-        </div> 
-      </div> 
-    </div> 
-  </div>
-
-  <div class="container">
-    
-    <div class="row text-center align-items-center">
-      <div class="col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center">
-        <h2>Local Spotlights</h2>
-        <p>Exploring the newest DIY transition concrete park builds happening downtown this summer.</p>
-        <img src="https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" class="grid-img mb-3" alt="Skateboard feature">
-        <button class="btn btn-dark">Read Article</button>
-      </div>
-      <div class="col-md-6 d-flex flex-column align-items-center">
-        <h2>Gear Breakdown</h2>
-        <p>Testing out hard versus soft wheels on rough street terrain to see what matches your style.</p>
-        <img src="https://unsplash.com" class="grid-img mb-3" alt="Skateboard feature 2">
-        <button class="btn btn-dark">View Reviews</button>
-      </div>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="https://unsplash.com" class="d-block mx-lg-auto img-fluid" alt="Skateboard collection layout" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">A rundown of top new skateboard decks</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia sandbox mollit anim id est laborum.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Read now</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="row text-center">
-      <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
-        <div class="1-circle.svg"><i class="bi bi-mailbox"></i></div>
-        <h3>Weekly Digests</h3>
-        <p>Straight to the point summaries sent out every Friday morning.</p>
-      </div>
-      <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
-        <div class="2-circle.svg"><i class="bi bi-people"></i></div>
-        <h3>Community Led</h3>
-        <p>Articles written entirely by skate enthusiasts and local builders.</p>
-      </div>
-      <div class="col-md-4 d-flex flex-column align-items-center">
-        <div class="3-circle.svg"><i class="bi bi-shield-check"></i></div>
-        <h3>Zero Spam</h3>
-        <p>No advertisements or tracking scripts. Unsubscribe anytime.</p>
-      </div>
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src="https://unsplash.com" class="grid-img mb-3" alt="Skateboard feature">
+                <button class="btn btn-dark">Read now</button>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src="https://unsplash.com" class="grid-img mb-3" alt="Skateboard gear feature">
+                <button class="btn btn-dark">Read now</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
+                <div class="mb-2">
+                    <svg xmlns="http://w3.org" fill="currentColor" class="bi bi-book custom-icon" viewBox="0 0 16 16">
+                        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.933-.53-2.12-.686-3.235-.686-1.114 0-2.305.156-3.235.686V2.828zM8 3.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.93-.53-2.12-.686-3.235-.686-1.114 0-2.305.156-3.235.686V3.687zM1.783 11.512c.747-.401 1.633-.551 2.441-.551 1.052 0 2.062.24 2.775.647V3.651c-.615-.46-1.546-.621-2.421-.621-.817 0-1.72.13-2.51.503v7.979zm12.434 0l-.014-.79c-.79-.373-1.693-.503-2.51-.503-.875 0-1.806.16-2.421.621v8.136c.713-.406 1.723-.647 2.775-.647.808 0 1.694.15 2.441.551v-.797z"/>
+                    </svg>
+                </div>
+                <h3>Read</h3>
+                <p>Read stories from our archive.</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
+                <div class="mb-2">
+                    <svg xmlns="http://w3.org" fill="currentColor" class="bi bi-chat-square-dots custom-icon" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                    </svg>
+                </div>
+                <h3>Contact</h3>
+                <p>Ask us a question.</p>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <div class="mb-2">
+                    <svg xmlns="http://w3.org" fill="currentColor" class="bi bi-heart custom-icon" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                    </svg>
+                </div>
+                <h3>Follow</h3>
+                <p>Follow us on Facebook or Twitter.</p>
+            </div>
+        </div>
     </div>
 
-  </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-start">
+            <span class="text-muted">This is a bootstrap exercise</span>
+        </div>
+    </footer>
 
-  <footer class="footer mt-auto py-3 bg-dark">
-    <div class="container">
-      <span class="text-muted">This is a bootstrap exercise</span>
-    </div>
-  </footer>
-
-  <script src="https://jsdelivr.net"></script>
+    <script src="https://jsdelivr.net"></script>
 </body>
 </html>
