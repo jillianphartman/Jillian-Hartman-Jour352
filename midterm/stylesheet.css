@@ -60,10 +60,10 @@ body {
     color: #111111;
 }
 
-.story-byline {
+#byline {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    font-style: italic;
+    font-style: italic
     margin-bottom: 24px;
 }
 
