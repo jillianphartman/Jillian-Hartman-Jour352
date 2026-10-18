@@ -1,37 +1,102 @@
-#content {
-    margin: 0 auto;
-    width: 900px;
-}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+#content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+#content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #111111;
+}
+#content p
+{
+    font-size: 18px;
+    color: #444443;
+}
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    background-color: #fcfbfa;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
 .masthead {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 5%;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px 25px 20px 5%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e2dd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .masthead-logo a {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: 46px;
+    font-weight: 700;
+    color: #111111;
     text-decoration: none;
+    letter-spacing: -1px;
+    transition: color 0.3s ease;
+}
+.masthead-logo a:hover {
+    color: #555555;
 }
 .masthead-nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
 }
 .masthead-nav a {
-    color: #cccccc;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #777570;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     transition: color 0.3s ease;
+    position: relative;
+    padding-bottom: 6px;
+}
+.masthead-nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    background-color: #111111;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateX(-50%);
 }
 .masthead-nav a:hover {
-    color: #ffffff;
+    color: #111111;
+}
+.masthead-nav a:hover::after {
+    width: 100%;
+}
+#content {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 0 25px;
+    line-height: 1.7;   
+}
+#content h2 {
+    font-family: "Georgia", serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #111111;
+}
+#content p {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    color: #444443;
+    margin-bottom: 25px;
 }
