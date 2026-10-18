@@ -67,12 +67,6 @@ body {
     margin-bottom: 24px;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0; 
-}
-
 #content p {
   font-family: Georgia, serif;
   font-size: 13px;
