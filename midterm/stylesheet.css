@@ -1,0 +1,31 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.masthead-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.masthead-nav a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.masthead-nav a:hover {
+    color: #ffffff;
+}
