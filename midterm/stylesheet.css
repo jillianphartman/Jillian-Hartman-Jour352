@@ -61,12 +61,9 @@ body {
 }
 
 .story-byline {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #666666;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e5e2dd;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
 }
 
 ul {
@@ -74,7 +71,7 @@ ul {
 }
 
 #content p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.65;
     margin-bottom: 22px;
     color: #222222;
