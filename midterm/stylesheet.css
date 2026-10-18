@@ -69,6 +69,10 @@ body {
     border-bottom: 1px solid #e5e2dd;
 }
 
+ul {
+  padding-left: 0;
+}
+
 #content p {
     font-size: 18px;
     line-height: 1.65;
