@@ -15,6 +15,12 @@
     background-color: #1a1a1a;
     color: #ffffff;
 }
+.masthead-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
 .masthead-nav ul {
     list-style: none;
     display: flex;
