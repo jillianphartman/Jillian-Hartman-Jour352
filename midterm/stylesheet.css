@@ -48,6 +48,7 @@ body {
 }
 
 .story-headline {
+    font-family: Helvetica, sans-serif;
     font-size: 38px;
     line-height: 1.2;
     margin-bottom: 15px;
@@ -120,7 +121,6 @@ blockquote.story-pullquote {
 .related-links h3 {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
