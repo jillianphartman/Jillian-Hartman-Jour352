@@ -73,10 +73,11 @@ ul {
 }
 
 #content p {
-    font-size: 13px;
-    line-height: 1.65;
-    margin-bottom: 22px;
-    color: #222222;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.65;
+  margin-bottom: 22px;
+  color: #222222;
 }
 
 blockquote.story-pullquote {
