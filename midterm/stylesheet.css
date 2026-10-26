@@ -6,32 +6,20 @@
 
 body {
     background-color: #fcfbfa;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.65;
-    color: #222222;
+    font-family: "Times New Roman", Times, Georgia, serif;
     -webkit-font-smoothing: antialiased;
-}
-
-#page-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
 }
 
 .masthead {
     background-color: #ffffff;
-    padding: 20px 0; 
+    padding: 30px 5%; 
     display: flex;
     justify-content: space-between; 
     align-items: center;
     border-bottom: 1px solid #e5e2dd;
-    margin-bottom: 30px;
 }
 
 .masthead-logo a {
-    font-family: "Georgia", Times, serif;
     font-size: 32px;
     font-weight: bold;
     color: #111111;
@@ -41,7 +29,7 @@ body {
 .masthead-nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .masthead-nav a {
@@ -53,64 +41,42 @@ body {
     text-decoration: none;
 }
 
-.masthead-nav a:hover {
-    color: #111111;
-}
-
 #content {
-    width: 100%;       
-    margin: 0 auto;
+    max-width: 700px;       
+    margin: 50px auto;      
+    padding: 0 20px;        
 }
 
 .story-headline {
-    font-family: "Georgia", Times, serif;
+    font-family: Helvetica, sans-serif;
     font-size: 38px;
     line-height: 1.2;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #111111;
 }
 
-.story-subheading,
-.story-deck {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.4;
-    color: #444444;
-    margin-bottom: 20px;
-}
-
-.story-subhead {
-    font-family: Helvetica, Arial, sans-serif;
+.story-subheading {
     font-size: 24px;
-    font-weight: bold;
     margin: 35px 0 15px 0;
     color: #111111;
 }
 
-/* this is where the author's name would go */
-
 #byline {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
     font-style: italic;
-    color: #666666;
     margin-bottom: 24px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eeeeee;
 }
 
 #content p {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.65;
-    margin-bottom: 22px;
-    color: #222222;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.65;
+  margin-bottom: 22px;
+  color: #222222;
 }
 
-blockquote.pullquote,
 blockquote.story-pullquote {
-    font-family: "Georgia", Times, serif;
     font-size: 22px;
     font-style: italic;
     color: #b13434;
@@ -119,8 +85,7 @@ blockquote.story-pullquote {
     border-left: 4px solid #b13434;
 }
 
-.quote-source,
-cite {
+.quote-source {
     display: block;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -147,40 +112,32 @@ cite {
     line-height: 1.4;
 }
 
-#related-items,
 .related-links {
     margin-top: 50px;
     padding-top: 25px;
     border-top: 2px solid #111111;
 }
 
-#related-items h2,
 .related-links h3 {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    color: #111111;
 }
 
-.related-links-list,
 .related-links ul {
     padding-left: 20px;
 }
 
-.related-links-list li,
 .related-links li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-.related-links-list a,
 .related-links a {
     color: #2b5cb3;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.related-links-list a:hover,
 .related-links a:hover {
     text-decoration: underline;
 }
