@@ -9,7 +9,7 @@ body {
     font-family: "Times New Roman", Times, Georgia, serif;
     -webkit-font-smoothing: antialiased;
 }
-
+/* This is the masthead section of the website. It contains the logo and navigation links. */
 .masthead {
     background-color: #ffffff;
     padding: 30px 5%; 
