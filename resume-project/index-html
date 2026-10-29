@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jillian Hartman Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:weight@700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://jsdelivr.net">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="#">Jillian Hartman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#my-work">My Work</a></li>
+               </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="page-topper text-center d-flex align-items-center justify-content-center">
+        <div class="topper-overlay"></div>
+        <div class="topper-content container position-relative text-white">
+            <h1 class="display-3 text-uppercase fw-bold m-0">Jillian Hartman</h1>
+            <p class="lead text-uppercase tracking-wide mt-2">University of Maryland Journalism Student</p>
+        </div>
+    </header>
+    <section class="profile-intro container text-enter">
+        <div class="row justify-content-center">
+            <img src="images/jillian.jpg" alt="Jillian Hartman" class="img-fluid shadow rounded-circle">
+        </div>
+        <div class="col-12 mt-3 social-links">
+            <a href="https://www.instagram.com/jillianhartmanmedia/" aria-label="Instagram Profile" class="mx-2 ds-3 text-secondary"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jillian-hartman-4b809a25b/" aria-label="LinkedIn Profile" class="mx-2 ds-3 text-secondary"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="col-12 mt-3">
+            <a href="mailto:jphart@terpmail.umd.edu" class="btn btn-hire text-uppercase px-4 py-2 fw-semibold">Contact</a>           
+        </div>
+    </section>
+</body>
+</html>
+
