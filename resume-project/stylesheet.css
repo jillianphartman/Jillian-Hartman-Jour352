@@ -1,0 +1,118 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+.navbar-custom {
+    background-color: #23527c;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+.navbar-custom .nav-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+.page-topper {
+    position: relative;
+    min-height: 280px;
+    background: url('images/campus-background.jpg') center/cover no-repeat;
+    z-index: 1;
+}
+.topper-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 82, 124, 0.85); /* Overlay matching main blue branding */
+    z-index: 2;
+}
+.topper-content {
+    z-index: 3;
+}
+.tracking-wide {
+    letter-spacing: 0.15em;
+    font-size: 1.1rem;
+}
+
+.profile-intro {
+    margin-top: -60px; /* Pulls avatar upward partially over hero section */
+    position: relative;
+    z-index: 4;
+}
+.profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+.btn-hire {
+    background-color: #337ab7;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.btn-hire:hover {
+    background-color: #23527c;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.section-title {
+    color: #23527c;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.lead-text {
+    font-size: 1.05rem;
+    color: #555555;
+}
+.text-accent {
+    color: #337ab7;
+}
+
+.portfolio-card {
+    background-color: #337ab7;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+.portfolio-card:hover {
+    background-color: #23527c;
+}
+
+@media (max-width: 576px) {
+    .page-topper {
+        min-height: 220px;
+    }
+    .profile-intro {
+        margin-top: -45px;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    .section-title {
+        font-size: 1.3rem;
+    }
+}
