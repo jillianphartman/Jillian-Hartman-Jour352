@@ -49,6 +49,81 @@
             <a href="mailto:jphart@terpmail.umd.edu" class="btn btn-hire text-uppercase px-4 py-2 fw-semibold">Contact</a>           
         </div>
     </section>
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <section id="about" class="resume-section text-center mb-5">
+                    <h2 class="section-title text-uppercase mb-3">About Me</h2>
+                    <p class="lead-text">I am a journalism student specializing in multimedia formats, including news reporting, sports reporting, and social media management. I am also interested in vertical video production. I have professional and student publication experience within these fields.</p>
+                </section>
+                <section id="experience" class="resume-section mb-5">
+                    <h2 class="section-title text-uppercase text-center mb-4">Experience</h2>
+                    
+                    <div class="job-item mb-4">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center border-bottom pb-2">
+                            <h3 class="h5 fw-bold m-0">Fall magazine intern, <span class="text-accent">Bethesda Magazine</span></h3>
+                            <span class="text-muted small">August 2026 – Present</span>
+                        </div>
+                        <p class="mt-2 text-secondary">Report and write articles for Bethesda Magazine, published in print six times a year. Support staff in various ways, such as coming up with story ideas, writing headlines, fact-checking, proofreading stories in layout, and participating in editorial meetings. Occasionally report for Bethesda Today, the digital newsroom of Bethesda Magazine.</p>
+                    </div>
+
+                    <div class="job-item mb-4">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center border-bottom pb-2">
+                            <h3 class="h5 fw-bold m-0">Summer news intern, <span class="text-accent">The Herald-Mail</span></h3>
+                            <span class="text-muted small">June 2026 – July 2026</span>
+                        </div>
+                        <p class="mt-2 text-secondary">Produce 5-6 articles per week, covering Washington County topics, including crime, court, politics, economics, entertainment, culture, and human-interest stories, while capturing original photography 1-2 times per week. Optimize story performance and audience reach using SEO strategies, including headline writing, metadata creation, URL structuring, internal linking, subheadings, and strategic photo selection.</p>
+                    </div>
+                </section>
+
+                <section id="education" class="resume-section mb-5">
+                    <h2 class="section-title text-uppercase text-center mb-4">Education</h2>
+                    <div class="education-item text-center">
+                        <p class="m-0 fw-semibold text-dark">Bachelor of Arts, Journalism, Minor in French Studies</p>
+                        <p class="text-muted">University of Maryland, 2028</p>
+                    </div>
+                </section>
+
+                <section id="skills" class="resume-section mb-5">
+                    <h2 class="section-title text-uppercase text-center mb-4">Skills</h2>
+                    <ul class="list-unstyled skills-list">
+                        <li class="mb-3"><strong>French:</strong> University of Maryland French Studies minor. Recipient of the Maryland Seal of Biliteracy in French from the Maryland State Department of Education in May 2025.</li>
+                        <li class="mb-3"><strong>Graphic design:</strong> Specializing in creating graphics for social media pages on Canva.</li>
+                        <li class="mb-3"><strong>Data analysis:</strong> Experienced with the use of Google Sheets and Excel to analyze and apply data to journalistic and audience engagement pursuits.</li>
+                    </ul>
+                </section>
+
+                <section id="my-work" class="resume-section mb-5">
+                    <h2 class="section-title text-uppercase text-center mb-4">My Work</h2>
+                    <div class="row g-4 text-center">
+                        <div class="col-12 col-sm-4">
+                            <a href="#" class="portfolio-card d-block p-4 text-decoration-none text-white shadow-sm fw-bold text-uppercase">
+                                The Diamondback
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <a href="#" class="portfolio-card d-block p-4 text-decoration-none text-white shadow-sm fw-bold text-uppercase">
+                                Herald-Mail
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <a href="#" class="portfolio-card d-block p-4 text-decoration-none text-white shadow-sm fw-bold text-uppercase">
+                                Bethesda Today
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-4 bg-light text-muted border-top">
+        <div class="container">
+            <p class="m-0 small">&copy; 2026 Jillian Hartman. Built with Bootstrap.</p>
+        </div>
+    </footer>
+
+    <script src="https://jsdelivr.net"></script>
 </body>
 </html>
-
