@@ -55,10 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 4;
 }
 .profile-img {
-    width: 130px;
-    height: 130px;
+    width: 320px;
+    height: 320px;
+    max-width: none;
     object-fit: cover;
-    border: 4px solid #ffffff;
+    border: 5px solid white;
+    margin: 0 auto;
 }
 .btn-hire {
     background-color: #337ab7;
@@ -102,17 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
-    .page-topper {
-        min-height: 220px;
-    }
-    .profile-intro {
-        margin-top: -45px;
-    }
     .profile-img {
-        width: 250px;
-        height: 250px;
-    }
-    .section-title {
-        font-size: 1.3rem;
+        width: 140px;
+        height: 140px;
     }
 }
