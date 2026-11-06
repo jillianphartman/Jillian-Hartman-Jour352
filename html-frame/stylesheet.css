@@ -18,9 +18,10 @@ body {
     font-weight: bold;
 }
 
-.story-header p {
-    font-size: 14px;
-    margin-top: 15px;
+.story-header {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
 }
 
 .chapter h2 {
